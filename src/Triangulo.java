@@ -9,5 +9,6 @@
  * @author Alan <alanjuniorestudo@gmail.com>
  */
 public class Triangulo {
-
+    private int base;
+    private int altura;
 }

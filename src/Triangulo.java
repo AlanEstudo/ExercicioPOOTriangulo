@@ -28,5 +28,11 @@ public class Triangulo {
         this.altura = altura;
     }
     
+    public float calculeArea(){
+        return base*altura/2;
+    }
     
+    public float calculaPerimetro(){
+        return base*3;
+    }
 }

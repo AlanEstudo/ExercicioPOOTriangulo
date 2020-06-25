@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -11,6 +14,11 @@
 public class Triangulo {
     private int base;
     private int altura;
+
+    public Triangulo(int base,int altura){
+        this.base = base;
+        this.altura = altura;
+    }
 
     public int getBase() {
         return base;
@@ -35,4 +43,5 @@ public class Triangulo {
     public float calculaPerimetro(){
         return base*3;
     }
+
 }
